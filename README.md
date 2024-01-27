@@ -1,6 +1,6 @@
 <div align="center">
   
-![Lucent](lucent-dark.png)
+![Lucent](lucent-logo-light.png)
 
 </div>
 
