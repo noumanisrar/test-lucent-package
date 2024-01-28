@@ -52,10 +52,21 @@ public function register(): void
 }
 ```
 ## Config Options
-We can manage the settings of the package from `config/lucent.php` file. These are the details.
+Modify the settings of the package by editing the `config/lucent.php` file. Here are the available configuration options:
 
+```bash
+with_request_details [boolean]
 ```
-show_translate_button [boolean]
+This option allows you to choose whether to log the request details associated with the error.
+```bash
+with_app_details [boolean]
 ```
-You can also control if you want to show the translate button for the translation keys.
-
+Enable this to log application-specific details, such as PHP version, Laravel version, environment, and locale.
+```bash
+with_user_details [boolean]
+```
+You can set it to true if you want to log the logged in user details.
+```bash
+line_count [boolean]
+```
+Adjust this setting to define the number of lines from the file you wish to log.
